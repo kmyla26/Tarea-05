@@ -53,7 +53,7 @@
 #secundario{
     border: 2px solid #403501;
     margin: 10px;
-    height: 510px;
+    height: 710px;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
@@ -100,3 +100,4 @@
     font-size: large;
 
 }
+
