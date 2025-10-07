@@ -1,0 +1,101 @@
+*{ 
+    margin: 0; /* Quitamos márgenes por defecto */
+    padding: 0; /* Quitamos rellenos por defecto */
+    box-sizing: border-box; /* Para que se incluya el padding y el borde */
+    background-image: url(img/logo.png); /*imagen de fondo para toda la página*/
+}
+#contenedor{
+    width: 90%; /* Que ocupe el 90% del ancho de la página */
+    margin: 25px auto; /* Centrado horizontal y con espacio arriba/abajo */
+    border: 2px solid grey;
+}
+#principal{
+    border: 2px solid #403501; /* Borde marrón*/
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    margin: 10px; /* Espacio fuera del contenedor */
+    padding: 10px; /* Espacio dentro del contenedor */
+}
+#logo{
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+}
+#cabecera{
+    width: 980px;
+    padding: 10px;
+    height: 40px;
+    align-content: center;
+}
+#cabecera ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#cabecera ul li{
+    list-style-type: none;
+}
+#cabecera ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+#cabecera ul li a:hover{
+    background:rgb(4, 4, 106) ;
+    color: white;
+    border-radius: 5px;
+}
+#secundario{
+    border: 2px solid #403501;
+    margin: 10px;
+    height: 470px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+#secundario img{
+    display: flex; /* Flexbox para acomodar elementos */
+    flex-direction: column; /* Elementos en fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;
+    flex-wrap: wrap;
+}
+#secundario .imagen1{
+    width: 470px;
+    height: 250px;
+    float: left;
+    margin: 20px;
+}
+#secundario .imagen2{
+    width: 800px;
+    height: 973px;
+    float: right;
+    margin-top: 50px;
+}
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    width: 400px;
+    margin: 50px;
+}
+#contenido h2{
+    color: rgb(255, 200, 62);
+    border: 3px solid gray;
+    width: 130px;
+    margin: 5px;
+    padding: 10px;
+    font-size: x-large;
+}
+#contenido ol li{
+    text-align: justify;
+    color:white;
+    width: 290px;
+    margin: 15px;
+    font-size: large;
+}
