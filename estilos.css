@@ -1,23 +1,23 @@
 *{ 
-    margin: 0; /* Quitamos márgenes por defecto */
-    padding: 0; /* Quitamos rellenos por defecto */
-    box-sizing: border-box; /* Para que se incluya el padding y el borde */
-    background-image: url(img/logo.png); /*imagen de fondo para toda la página*/
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-image: url(img/logo.png); 
 }
 #contenedor{
-    width: 90%; /* Que ocupe el 90% del ancho de la página */
-    margin: 25px auto; /* Centrado horizontal y con espacio arriba/abajo */
+    width: 90%; 
+    margin: 25px auto;
     border: 2px solid grey;
 }
 #principal{
-    border: 2px solid #403501; /* Borde marrón*/
-    display: flex; /* Usamos Flexbox para acomodar los elementos */
-    flex-direction: row; /* Elementos en fila horizontal */
-    justify-content: space-between; /* Espacio entre ellos */
-    align-items: center; /* Alineados al centro*/
-    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
-    margin: 10px; /* Espacio fuera del contenedor */
-    padding: 10px; /* Espacio dentro del contenedor */
+    border: 2px solid #403501; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin: 10px; 
+    padding: 10px; 
 }
 #logo{
     height: 150px;
@@ -53,14 +53,14 @@
 #secundario{
     border: 2px solid #403501;
     margin: 10px;
-    height: 470px;
+    height: 510px;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
 #secundario img{
-    display: flex; /* Flexbox para acomodar elementos */
-    flex-direction: column; /* Elementos en fila */
-    justify-content: space-between; /* Espacio entre los elementos */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
     align-items: center;
     flex-wrap: wrap;
 }
@@ -98,4 +98,5 @@
     width: 290px;
     margin: 15px;
     font-size: large;
+
 }
